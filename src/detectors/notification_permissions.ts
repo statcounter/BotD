@@ -7,6 +7,6 @@ export function detectNotificationPermissions({
   if (browserKind.state !== State.Success || browserKind.value !== BrowserKind.Chrome) return false
 
   if (notificationPermissions.state === State.Success && notificationPermissions.value) {
-    return BotKind.HeadlessChrome
+    return BotKind.NotificationPerms
   }
 }

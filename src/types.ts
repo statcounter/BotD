@@ -52,6 +52,14 @@ export const BotKind = {
 
   WebDriver: 'webdriver',
   HeadlessChrome: 'headless_chrome',
+  WebGL: 'headless_chrome_webgl',
+  LangLength: 'headless_chrome_lang_len',
+  NotificationPerms: 'headless_chrome_notif',
+  PluginsValue: 'headless_chrome_plugins_val',
+  PluginsInc: 'headless_chrome_plugins_inc',
+  Rtt: 'headless_chrome_rtt',
+  HeadlessWebDriver: 'headless_chrome_webdriver',
+  WindowSize: 'headless_chrome_win_size',
   Unknown: 'unknown',
 } as const
 

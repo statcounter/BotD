@@ -19,5 +19,5 @@ export function detectPluginsLengthInconsistency({
     browserEngineKind.value !== BrowserEngineKind.Chromium
   )
     return
-  if (pluginsLength.value === 0) return BotKind.HeadlessChrome
+  if (pluginsLength.value === 0) return BotKind.PluginsInc
 }
